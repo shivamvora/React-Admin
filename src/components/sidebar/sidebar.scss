@@ -42,7 +42,7 @@
                     background-color: #ece8ff;
                 }
                 .icon{
-                    font-size: 10px;
+                    font-size: 22px;
                     color: #7451f8;
                 }
                 span{
@@ -51,6 +51,28 @@
                     color: #888;
                     margin-left: 10px;
                 }
+            }
+        }
+    }
+    .bottom{
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        .colorOption{
+            width: 20px;
+            height: 20px;
+            border-radius: 5px;
+            border: 1px solid #7451f8;
+            cursor: pointer;
+            margin: 5px;
+            
+            &:nth-child(1){
+                background-color: white;
+
+            }
+            &:nth-child(2){
+                background-color: #333;
+                
             }
         }
     }

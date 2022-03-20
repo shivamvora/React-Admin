@@ -25,90 +25,69 @@ const Sidebar = () => {
                 <ul>
                     <p className="title">MAIN</p>
                     <li>
-                        <span className='icon'>
-                        <DashboardIcon/>
-                        </span>
+                        <DashboardIcon className='icon'/>
                         <span>Dashboard</span>
                     </li>
                     <p className="title">LISTS</p>
 
                     <li>
-                    <span className='icon'>
-                        <PersonOutlineOutlinedIcon/>
-                    </span>
+                        <PersonOutlineOutlinedIcon className='icon'/>
                         <span>Users</span>
                     </li>
                     <li>
-                    <span className='icon'>
-                         <StoreMallDirectoryIcon/>
-                    </span>
+                         <StoreMallDirectoryIcon className='icon'/>
 
                         <span>Products</span>
                     </li>
                     <li>
-                    <span className='icon'>
-                        <VideoLabelIcon/>
-                        </span>
+                        <VideoLabelIcon className='icon'/>
                         <span>Orders</span>
                     </li>
                     <li>
-                    <span className='icon'>
-                        <LocalShippingIcon/>
-                    </span>
+                        <LocalShippingIcon className='icon'/>
                         <span>Delivery</span>
                     </li>
                     <p className="title">USEFUL</p>
 
                     <li>
-                    <span className='icon'>
-                        <QueryStatsIcon/>
-                    </span>
+                        <QueryStatsIcon className='icon'/>
                         <span>States</span>
                     </li>
                     <li>
-                    <span className='icon'>
-                        <NotificationsNoneOutlinedIcon/>
-                        </span>
+                        <NotificationsNoneOutlinedIcon className='icon'/>
                         <span>Notifications</span>
                     </li>
                     <p className="title">SERVICE</p>
 
                     <li>
-                    <span className='icon'>
-                        <CloudDoneOutlinedIcon/>
-                    </span>
+                        <CloudDoneOutlinedIcon className='icon'/>
                         <span>System Health</span>
                     </li>
                     <li>
-                    <span className='icon'>
-                        <PsychologyOutlinedIcon/>
-                    </span>
+                        <PsychologyOutlinedIcon className='icon'/>
                         <span>Logs</span>
                     </li>
                     <li>
-                    <span className='icon'>
-                        <SettingsIcon/>
-                    </span>
+                        <SettingsIcon className='icon'/>
                         <span>Settings</span>
                     </li>
                     <p className="title">USER</p>
                     <li>
-                    <span className='icon'>
-                        <AccountCircleOutlinedIcon/>
-                    </span>
+                        <AccountCircleOutlinedIcon className='icon'/>
                         <span>Profile</span>
                     </li>
 
                     <li>
-                    <span className='icon'>
-                        <ExitToAppOutlinedIcon/>
-                    </span>
+                        <ExitToAppOutlinedIcon className='icon'/>
                         <span>Logout</span>
                     </li>
                 </ul>
             </div>
         </div>
-        <div className="bottom">color option</div>
+        <div className="bottom">
+            <div className="colorOption"></div>
+            <div className="colorOption"></div>
+        </div>
     </div>
   )
 }
